@@ -15,7 +15,7 @@ stages {
 
   stage('deploy') {
     steps {
-       sh ''' sudo cp /home/ubuntu/jenkins/workspace/trainticket/target/*.war /opt/tomcat/apache-tomcat-9.0.68/webapps '''
+       sh ''' sudo cp /home/ubuntu/jenkins/workspace/trainticket_test/target/*.war /opt/tomcat/apache-tomcat-9.0.68/webapps '''
     }
   }
 
